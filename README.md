@@ -30,6 +30,10 @@ Le projet est une application de gestion de machines et de salles qui permet d'a
 #### Modification des salles 
 ![mod salle](https://github.com/bananaacaat/tp-RMI/assets/147453939/4c26b1fe-aa75-433c-b634-65b92bdfd09e)
 
+### Recherche des salles 
+![recherch d sall](https://github.com/bananaacaat/tp-RMI/assets/147453939/5884cceb-edc4-4f46-b2c8-a399f5b85146)
+
+
 ## ServerRMI Project
 - `src/main/java/entities`: Entity classes for machines and rooms.
 - `src/main/java/util`: `HibernateUtil` class for managing the SessionFactory.
