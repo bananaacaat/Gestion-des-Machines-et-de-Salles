@@ -33,21 +33,20 @@ Le projet est une application de gestion de machines et de salles qui permet d'a
 ### Recherche des salles 
 ![recherch d sall](https://github.com/bananaacaat/tp-RMI/assets/147453939/5884cceb-edc4-4f46-b2c8-a399f5b85146)
 
+## Projet ServerRMI
+- 'src/main/java/entities' : Classes d'entités pour les machines et les salles.
+- 'src/main/java/util' : Classe HibernateUtil pour gérer la SessionFactory.
+- 'src/main/java/service' : Classes MachineService et RoomService pour les opérations de service.
+- 'src/main/java/config' : Fichier hibernate.cfg.xml pour la configuration de Hibernate.
+- 'src/main/java/dao' : Interface IDao pour les opérations CRUD.
+- 'src/main/java/server' : Classe Server pour démarrer le serveur RMI.
 
-## ServerRMI Project
-- `src/main/java/entities`: Entity classes for machines and rooms.
-- `src/main/java/util`: `HibernateUtil` class for managing the SessionFactory.
-- `src/main/java/service`: `MachineService` and `RoomService` classes for service operations.
-- `src/main/java/config`: `hibernate.cfg.xml` file for Hibernate configuration.
-- `src/main/java/dao`: `IDao` interface for CRUD operations.
-- `src/main/java/server`: `Server` class to start the RMI server.
-
-## ClientRMI Project
-- `src/main/java/entities`: Entity classes for machines and rooms.
-- `src/main/java/dao`: `IDao` interface for CRUD operations.
-- `src/main/java/config`: `Config` class for RMI configuration (IP address and port).
-- `src/main/resources`: `configuration.properties` file to specify the server's IP address and port.
-- `src/main/java/ui`: Swing graphical user interface for room and machine management.
+## Projet ClientRMI
+- 'src/main/java/entities' : Classes d'entités pour les machines et les salles.
+- 'src/main/java/dao' : Interface IDao pour les opérations CRUD.
+- 'src/main/java/config' : Classe Config pour la configuration RMI (adresse IP et port).
+- 'src/main/resources' : Fichier configuration.properties pour spécifier l'adresse IP et le port du serveur.
+- 'src/main/java/ui' : Interface utilisateur graphique Swing pour la gestion des salles et des machines.
 
 ## Technologies utilisées
 - Java
