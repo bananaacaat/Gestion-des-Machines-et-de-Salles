@@ -1,5 +1,5 @@
-# Application de Gestion de Machines et de Salles 
-Ce projet est une application de gestion de machines et de salles qui permet d'ajouter, supprimer, modifier et trier les machines par salle en utilisant la technologie RMI (Remote Method Invocation)
+# Gestion de Machines et de Salles 
+Le projet est une application de gestion de machines et de salles qui permet d'ajouter, supprimer, modifier et trier les machines par salle en utilisant la technologie RMI (Remote Method Invocation)
 
 ## Fonctionnalités
 - **Ajouter une machine**: Permet d'ajouter une nouvelle machine en spécifiant sa référence, sa marque, son prix et la salle à laquelle elle est associée.
