@@ -49,6 +49,12 @@ Le projet est une application de gestion de machines et de salles qui permet d'a
 - `src/main/resources`: `configuration.properties` file to specify the server's IP address and port.
 - `src/main/java/ui`: Swing graphical user interface for room and machine management.
 
+## Technologies utilisées
+- Java
+- MySQL (for the database)
+- Hibernate (for the persistence layer)
+- RMI (for client-server communication)
+
 ## System Requirements
 - Java 8 or higher
 - MySQL Server
